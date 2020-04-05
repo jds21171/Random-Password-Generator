@@ -31,10 +31,10 @@ function writePassword() {
 
   if (length < 8) {
     alert("Your password must be at least 8 characters long.");
-    length.value = 8;
-  } else if (length > 64) {
-    alert("Your pass must be less than 64 characters long");
-    length.value = 64;
+    return;
+  } else if (length > 128) {
+    alert("Your pass must be less than 128 characters long");
+    return;
   }
 
   // String.fromCharCode(); I looked up a cool way to loop through an array whose values are on the 
