@@ -29,6 +29,7 @@ function writePassword() {
   let randSelector = [];
   let password = [];
 
+  // Will not execute the random password generate function if password is not between 8 and 128 characters long
   if (length < 8) {
     alert("Your password must be at least 8 characters long.");
     return;
