@@ -29,6 +29,14 @@ function writePassword() {
   let randSelector = [];
   let password = [];
 
+  if (length < 8) {
+    alert("Your password must be at least 8 characters long.");
+    length.value = 8;
+  } else if (length > 64) {
+    alert("Your pass must be less than 64 characters long");
+    length.value = 64;
+  }
+
   // String.fromCharCode(); I looked up a cool way to loop through an array whose values are on the 
   // unique browser character set for chrome
 
