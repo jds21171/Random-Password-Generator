@@ -1,7 +1,6 @@
-# 03 JavaScript: Password Generator
+# Random Password Generator
 
-Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
-
+A web application that allows you to create your own unique password between 8-128 characters. You can select criteria such as uppercase/lowercase letters, numbers, and symbols to be included in your password. Once you have your desired password length and characters, hit the 'generate password' button to get your new password. You can experience the deployed project here: https://jds21171.github.io/Random-Password-Generator/
 
 ## User Story
 
